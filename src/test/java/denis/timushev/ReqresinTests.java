@@ -47,9 +47,7 @@ public class ReqresinTests {
 
     @Test
     void unsuccessfulTest() {
-
         String data = "{ \"email\": \"sydney@fife\" }";
-
         given()
                 .contentType(JSON)
                 .body(data)
